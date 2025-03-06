@@ -10,7 +10,7 @@ cd "$REPO_PATH" || exit
 export PATH=/usr/bin:/bin:/usr/local/bin
 
 # Get the current timestamp
-timestamp=$(date +"%Y-%m-%d %H:%M:%S")
+timestamp=$(date +"%Y%m%d%H%M%S")
 
 # Commit message with timestamp
 commit_message="Auto commit: $timestamp"
