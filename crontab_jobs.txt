@@ -1,2 +1,2 @@
 # Auto-commit script runs every 30 minutes
-*/30 * * * * /home/nanderson/nate_personal/cron_jobs/cron_git_second_brain.sh >> /var/log/cron_log.log 2>&1
+*/30 * * * * /home/nanderson/nate_personal/cron_jobs/cron_git_second_brain.sh >> /home/nanderson/nate_personal/cron_jobs/cron_log.log 2>&1
